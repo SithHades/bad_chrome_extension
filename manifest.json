@@ -1,0 +1,6 @@
+{
+    "name": "Bad Chrome Extension",
+    "description": "Replaces common phrases or words with worse versions of them.",
+    "version": "1.0",
+    "manifest_version": 3
+}
