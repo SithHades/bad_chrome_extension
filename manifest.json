@@ -2,5 +2,15 @@
     "name": "Bad Chrome Extension",
     "description": "Replaces common phrases or words with worse versions of them.",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "author": "Luca B. Knaack",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "all_frames": "true",
+            "js": ["replacement.js"],
+            "run_at": "document_end"
+        }
+    ]
 }
