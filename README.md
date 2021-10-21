@@ -1,0 +1,1 @@
+# bad_chrome_extension
